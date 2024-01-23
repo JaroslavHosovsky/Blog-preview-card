@@ -1,0 +1,47 @@
+@mixin displayFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin mainStyle {
+  border: 1px solid $additional-color;
+  background-color: $secondary-color;
+  box-shadow: 5px 5px 0 $additional-color;
+  border-radius: 15px;
+  padding: 20px;
+  width: 85%;
+  max-width: 325px;
+  pointer-events: none;
+}
+
+@mixin imgStyle {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+@mixin learningButton {
+  background-color: $primary-color;
+  color: $additional-color;
+  border-radius: 4px;
+  border: none;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  font-weight: 800;
+  font-size: 13px;
+}
+
+@mixin sectionStyle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@mixin imgFooter {
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
+  margin-bottom: 0;
+}
